@@ -12,7 +12,8 @@
   <header>
     <nav>
       <a href="#inicio">Sergio</a>
-      <ul>
+      <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu">☰</button>
+      <ul id="menu">
         <li><a href="#sobre-mi">Sobre mí</a></li>
         <li><a href="#proyectos">Proyectos</a></li>
         <li><a href="#habilidades">Habilidades</a></li>
@@ -57,7 +58,7 @@
   </main>
 
   <footer>
-    <p>&copy; 2026 Sergio</p>
+    <p>&copy; <span id="anio"></span> Sergio</p>
   </footer>
 
   <script src="js/main.js"></script>
